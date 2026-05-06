@@ -1,28 +1,28 @@
 ---
 templateKey: bio-page
-thumbnail: /img/clay-image-1.jpg
+thumbnail: /img/charcoal3.jpg
 date: 2023-03-02T10:17:05.133Z
 title: Bio
 description: About the Artist
 number: 1
 pagetype:
   - main
-featuredimage: /img/clay-image-1.jpg
+featuredimage: /img/charcoal3.jpg
 ---
-![Artist at work](/img/clay-images-11.jpg)
+![Artist at work](/img/fish-head-painting.jpg)
 
-## The Hands Behind the Clay
+## The Artist Behind the Work
 
-I am a ceramic artist based in the Pacific Northwest, where the rugged coastline and dense forests inspire my work. My journey with clay began over a decade ago, first as a meditative practice and later as a lifelong obsession with form and fire.
+Romy Jervis is a ceramic artist and a graduate of the Fine Arts program at Bard College. Her work is an investigation into the "living architecture" of the natural world, centering on the translation of biological remnants into permanent forms.
 
-I work primarily with stoneware and porcelain, utilizing both wheel-throwing and hand-building techniques. My philosophy is rooted in wabi-sabi—finding beauty in the imperfect, the impermanent, and the incomplete.
+Working primarily through hand-building and detailed sketching, Romy explores the tension between the fluid and the skeletal. Her practice is defined by an obsession with organic structures—from the rhythmic geometry of a deer’s rib cage to the intricate, woven fragility of spider webs. Each piece, whether a stoneware vessel or a charcoal nude, is a study of the beauty found in the remnants of life.
 
-![Studio shelves](/img/clay-images-12.jpg)
+![Studio shelves](/img/fishhead-ceramics5.jpg)
 
 ### Process & Materials
 
-Every piece is crafted in my home studio. I formulate my own glazes using locally sourced ash and minerals, resulting in surfaces that are unique to my environment. The firing process is a collaboration with the kiln; I can guide the heat, but the flame has the final say.
+Every piece begins with close observation. My process moves between the immediacy of charcoal sketching and the slow, meditative construction of hand-built clay. I am drawn to the structural honesty of stoneware, often leaving the surface raw or minimally treated to keep the focus on the biological forms—the curve of a rib, the jagged edge of a bone, or the delicate lattice of a web.
 
-When I am not in the studio, you can find me hiking the trails of the Cascades or scouring the beach for interesting stones and driftwood.
+When I’m not in the studio, I am usually outdoors collecting references. Whether I’m documenting the silhouette of a fish head or the complex geometry of a found horn, my work is a constant dialogue with the remnants and rhythms of the natural world.
 
-<a href="https://unsplash.com/@tomcrewceramics" target="_blank">Image credits - Tom Crew</a>
+Image credits - Romy Jervis
