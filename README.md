@@ -1,3 +1,39 @@
+# Romy Jervis Portfolio Site
+
+This repository contains the Astro source for Romy Jervis's artist portfolio site. It is a content-driven static website for presenting artwork, bio information, work categories, and direct contact details.
+
+The site uses Markdown content collections under `src/content/` for editable pages and portfolio entries, with reusable Astro templates for page layouts, work listings, and image-based navigation cards. The visual foundation is based on the Clay Astro theme, customized for Romy's ceramics, drawings, paintings, and portfolio content.
+
+## Project Notes
+
+- Main page content lives in `src/content/pages/`.
+- Work category pages live in `src/content/work/`.
+- Homepage cards are controlled by frontmatter with `pagetype: main`.
+- Site templates and shared UI live in `src/templates/`, `src/layouts/`, and `src/components/`.
+- Static images live in `public/img/`.
+
+## Build Modes
+
+Use the normal build when the site is served from the root of a domain:
+
+```bash
+npm run build
+```
+
+Use the base-path build when the site is served from `/romy-portfolio/`:
+
+```bash
+npm run build:romy
+```
+
+You can also choose another folder at build time:
+
+```bash
+BASE_PATH=/some-folder npm run build
+```
+
+---
+
 # 🏺 Clay Theme for Astro
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/098d9ba5-fd1a-4c6b-83c1-0b70fd7e017c/deploy-status)](https://app.netlify.com/projects/clay-astro-theme/deploys)

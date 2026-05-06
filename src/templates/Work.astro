@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { type CollectionEntry } from 'astro:content';
+import { withBase } from '../utils/basePath';
 
 interface Props {
   entry: CollectionEntry<'work'> | CollectionEntry<'news'> | CollectionEntry<'sold'>;
@@ -32,7 +33,7 @@ const { title, description, thumbnail } = entry.data;
 
     {thumbnail && (
       <div class="post-content-image">
-        <img src={thumbnail} class="kg-image" alt={title} />
+        <img src={withBase(thumbnail)} class="kg-image" alt={title} />
       </div>
     )}
 
@@ -43,14 +44,14 @@ const { title, description, thumbnail } = entry.data;
     <div class="post-link">
       <div>
         {next && (
-            <a style="display: flex; align-items: center; color: #131313; font-size: 2rem;" href={`/${baseSlug}/${next.slug}`}>
+            <a style="display: flex; align-items: center; color: #131313; font-size: 2rem;" href={withBase(`/${baseSlug}/${next.slug}`)}>
                <span>&larr; {next.data.title}</span>
             </a>
         )}
       </div>
       <div>
         {prev && (
-            <a style="display: flex; align-items: center; color: #131313; font-size: 2rem;" href={`/${baseSlug}/${prev.slug}`}>
+            <a style="display: flex; align-items: center; color: #131313; font-size: 2rem;" href={withBase(`/${baseSlug}/${prev.slug}`)}>
                <span>{prev.data.title} &rarr;</span>
             </a>
         )}

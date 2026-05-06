@@ -8,6 +8,24 @@ body {
     margin: 0;
 }
 
+[data-theme='dark'] .post-content-body h1,
+[data-theme='dark'] .post-content-body h2,
+[data-theme='dark'] .post-content-body h3,
+[data-theme='dark'] .post-content-body h4,
+[data-theme='dark'] .post-content-body h5,
+[data-theme='dark'] .post-content-body h6 {
+    color: var(--color-base);
+}
+
+[data-theme='dark'] .hamburger-inner,
+[data-theme='dark'] .hamburger-inner::before,
+[data-theme='dark'] .hamburger-inner::after,
+[data-theme='dark'] .site-head-open .hamburger-inner,
+[data-theme='dark'] .site-head-open .hamburger-inner::before,
+[data-theme='dark'] .site-head-open .hamburger-inner::after {
+    background-color: var(--color-base);
+}
+
 .theme-toggle {
     background: transparent;
     border: none;
@@ -28,7 +46,7 @@ body {
     opacity: 1;
 }
 .sun-icon {
-    color: #FFD700; /* Yellow */
+    color: #ededed; /* Gray */
 }
 .moon-icon {
     color: #333; /* Gray/Black */

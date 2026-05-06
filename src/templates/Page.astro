@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { type CollectionEntry } from 'astro:content';
+import { withBase } from '../utils/basePath';
 
 interface Props {
   entry: CollectionEntry<'pages'>;
@@ -30,7 +31,7 @@ const { title, description, thumbnail } = entry.data;
 
     {thumbnail && (
       <div class="post-content-image">
-        <img src={thumbnail} class="kg-image" alt={title} />
+        <img src={withBase(thumbnail)} class="kg-image" alt={title} />
       </div>
     )}
 

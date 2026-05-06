@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../utils/basePath';
+
 export interface Props {
   count: number;
   post: any; // using any for now, better to use CollectionEntry
@@ -11,12 +13,12 @@ const title = post.data.title;
 const isLarge = count % 3 === 0;
 
 // Construct background image style
-const bgStyle = thumbnail ? `background-image: url(${thumbnail});` : '';
+const bgStyle = thumbnail ? `background-image: url(${withBase(thumbnail)});` : '';
 const postClass = `post-card ${isLarge ? 'post-card-large' : ''} ${thumbnail ? 'with-image' : 'no-image'} post`;
 ---
 
 <article class={postClass} style={bgStyle}>
-  <a href={`/${slug}`} class="post-card-link">
+  <a href={withBase(`/${slug}`)} class="post-card-link">
     <div class="post-card-content">
       <h2 class="post-card-title">
         {title}
@@ -93,6 +95,7 @@ const postClass = `post-card ${isLarge ? 'post-card-large' : ''} ${thumbnail ? '
 .post-card-title {
   margin: 0;
   display: inline-block;
+  color: #fff;
   font-size: 3.4rem;
   max-width: 70%;
   text-align: center;
