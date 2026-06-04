@@ -1,18 +1,28 @@
 ---
 templateKey: work-sub-page
 thumbnail: /img/charcoal2.jpg
+thumbnailDescription: "Deer; 49\" by 30\", charcoal, paper, tape"
 date: 2026-05-06T10:00:00.000Z
 title: Drawing
-description: Romy’s drawings — intuitive, layered studies of form, gesture, and quiet detail.
+description: Romy Jervis:Drawings
 ---
 
+![Charcoal 1](/img/charcoal1.jpg)
 
-## Line, Shape, and Rhythm
+Roadkill figure; 39" by 77" paper, tape
 
-This series explores drawing as a way to slow down and pay attention. Each piece begins with loose, responsive marks and builds through repetition, subtraction, and small adjustments over time.
+![Charcoal Chain](/img/charcoal-chain1.jpg)
 
-![Drawing study one](/img/charcoal1.jpg)
+Chain; charcoal, paper
 
-Rather than aiming for a perfect rendering, the work leans into texture, pacing, and the emotional tone of the line—what’s left unsaid is part of the composition.
+![Charcoal 3](/img/charcoal3.jpg)
 
-![Drawing study one](/img/charcoal-chain1.jpg)
+Curled figure; 30 by 63’’ charcoal, paper
+
+![Antler Girl](/img/antler-girl.jpg)
+
+Antler Girl
+
+![Charcoal 3](/img/ribcage.jpg)
+
+
