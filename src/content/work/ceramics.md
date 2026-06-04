@@ -1,17 +1,77 @@
 ---
 templateKey: work-sub-page
-thumbnail: /img/fishhead-ceramics6.jpg
+thumbnail: /img/hide-and-chain.jpg
+thumbnailDescription: "Hide and chain; 72\" x 36\""
 date: 2026-05-06T11:00:00.000Z
-title: Ceramics
-description: Romy’s ceramics — functional forms shaped by hand, finished with quiet glazes and honest texture.
+title: Ceramics/Sculpture
+description: Romy Jervis:Ceramics/Sculpture 
 ---
 
-## Form, Weight, and Use
 
-This body of work focuses on simple, durable forms—mugs, bowls, and small vessels made to be used every day. The process is tactile and direct: hand-built and wheel-thrown pieces that keep evidence of the making.
+![Ceramic Fish Heads](/img/fishhead-ceramics6.jpg)
 
-![Drawing study one](/img/FISHBONES1-ceramics24.jpg)
+Fish heads; various sizes, clay, glaze
 
-Glazes stay restrained and responsive, emphasizing surface, weight, and the small variations that happen in firing. Each piece is a balance of intention and surprise—familiar in the hand, slightly different every time.
+![Ceramic Fish Heads](/img/fishhead-ceramics4.jpg)
 
-![Drawing study one](/img/BOWL2-ceramics.jpg)
+Fish heads; various sizes, clay, glaze
+
+
+![Ceramic Fish Bones](/img/FISHBONES1-ceramics24.jpg)
+
+Fish bones; various sizes, clay, glaze
+
+![Ceramic Fish Bones](/img/FISHBONES2-ceramics.jpg)
+
+Fish bones; various sizes, clay, glaze
+
+
+![Ceramic Bowl](/img/BOWL2-ceramics.jpg)
+
+Fruit bowl;  clay, glaze
+
+![Ceramic Bowl](/img/BOWL1-ceramics22.jpg)
+
+Fruit bowl;  clay, glaze
+
+![Antlers](/img/antler1.jpg)
+
+Antler; unglazed clay
+
+![Antlers](/img/antler3.jpg)
+
+Antler; unglazed clay
+
+
+![Bones](/img/bones1.jpg)
+
+Bone installation; various sizes, clay
+
+![Bones](/img/bones4.jpg)
+
+Bone installation; various sizes, clay
+
+![Ceramic Teeth](/img/TEETH1ceramics24.jpg)
+
+Teeth; clay, glaze
+
+![Ceramic Teeth](/img/TEETH3ceramics.jpg)
+
+Teeth; clay, glaze
+
+
+![Rib Cage](/img/ribcage1.jpg)
+
+Rib cage; clay, glaze
+
+
+![Rib Cage](/img/ribcage3.jpg) 
+
+Rib cage; clay, glaze
+
+
+
+
+
+
+

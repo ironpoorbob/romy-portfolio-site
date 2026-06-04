@@ -11,7 +11,9 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 
 const { title, description, thumbnail } = entry.data;
-const contactEmail = 'romy@romyjervis.com';
+const contactEmail = 'romyjervis@gmail.com';
+const instagramUrl = 'https://www.instagram.com/romyjervisart/';
+const instagramHandle = '@romyjervisart';
 ---
 
 <Layout title={title} description={description}>
@@ -26,7 +28,8 @@ const contactEmail = 'romy@romyjervis.com';
       <section class="primary-zone">
         <div class="context">
           <p>
-            Let’s connect. Whether you’re interested in a specific piece, a commission, or a collaborative project, I’m always open to new inquiries and conversations about form and clay.
+            You can reach me at the email below or check me out on Instagram:
+            <a href={instagramUrl} class="instagram-inline-link" target="_blank" rel="noopener noreferrer">{instagramHandle}</a>
           </p>
           <Content />
         </div>
@@ -93,11 +96,11 @@ const contactEmail = 'romy@romyjervis.com';
     }
 
     .copy-badge {
-      border: 1px solid var(--color-border);
+      border: 1px solid var(--color-primary);
       border-radius: 999px;
       background: var(--color-bg);
-      box-shadow: inset 0 0 0 1px var(--color-border);
-      color: var(--color-base) !important;
+      box-shadow: inset 0 0 0 1px var(--color-primary);
+      color: var(--color-primary) !important;
       cursor: pointer;
       font-family: var(--font-sans-serif);
       font-size: 1.3rem;
@@ -108,9 +111,20 @@ const contactEmail = 'romy@romyjervis.com';
 
     .copy-badge:hover {
       color: var(--color-bg) !important;
-      background: var(--color-base);
-      border-color: var(--color-base);
-      box-shadow: inset 0 0 0 1px var(--color-base);
+      background: var(--color-primary);
+      border-color: var(--color-primary);
+      box-shadow: inset 0 0 0 1px var(--color-primary);
+    }
+
+    .instagram-link {
+      color: var(--color-base);
+      font-size: 1.8rem;
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.18em;
+    }
+
+    .instagram-inline-link {
+      color: var(--color-primary);
     }
 
     .context {

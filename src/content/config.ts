@@ -3,6 +3,7 @@ import { defineCollection, z } from 'astro:content';
 const commonSchema = z.object({
   title: z.string(),
   description: z.string().optional(),
+  thumbnailDescription: z.string().optional(),
   date: z.date().optional(),
   thumbnail: z.string().optional(),
   templateKey: z.string().optional(),
